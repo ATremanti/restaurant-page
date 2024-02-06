@@ -1,0 +1,58 @@
+body {
+    height: 100lvh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(/restaurant-page/dist/images/msBG-GjzJFMnJZYg-unsplash.jpg);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+button {
+    border: none;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.2em;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0 0 18px #bfbfbf;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.signature, .img-credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 0.8em;
+}
+
+a {
+    color: black;
+}
