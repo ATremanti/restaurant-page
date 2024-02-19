@@ -2,4 +2,4 @@
 
 A simple restaurant page using HTML, CSS, JavaScript and Webpack
 
-[Live Preview]()
+[Live Preview](https://atremanti.github.io/restaurant-page/)
