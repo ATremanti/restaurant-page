@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
 
 body {
     height: 100lvh;
@@ -22,15 +23,30 @@ header {
     padding: 0 1% 0 1%;
 }
 
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    text-shadow: 0 0 4px white;
+    transform: translateY(-15%);
+}
+
 #content {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
 }
 
 .rest-name {
-    font-size: 3.5em;
+    font-family: "Shadows Into Light", "Plus Jakarta Sans", sans-serif;
+    font-size: 4em;
 }
 
 button {
@@ -44,6 +60,40 @@ button {
     width: 30%;
     font-size: 1.2em;
     text-shadow: 0 0 4px white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-shadow: 0 0 4px white;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+}
+
+.item-name {
+    font-size: 1.5em;
+}
+
+.item-description {
+    font-size: 1.1em;
+}
+
+.about-content {
+    text-align: justify;
+    font-size: 1.2em;
+    width: 25%;
+    text-shadow: 0 0 4px white;
+}
+
+.about-para::first-letter {
+    initial-letter: 2;
 }
 
 .footer {
