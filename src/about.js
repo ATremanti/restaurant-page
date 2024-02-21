@@ -2,7 +2,7 @@ const createAbout = (() => {
     const content = document.querySelector('#content');
 
     const about = document.createElement('div');
-    about.classList.add('about-content');
+    about.classList.add('about-content', 'animated');
     content.appendChild(about);
 
     const aboutp = document.createElement('div');

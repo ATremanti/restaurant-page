@@ -2,7 +2,7 @@ const createMenu = (() => {
     const content = document.querySelector('#content');
 
     const gridcontainer = document.createElement('div');
-    gridcontainer.classList.add('grid-container');
+    gridcontainer.classList.add('grid-container', 'animated');
     content.appendChild(gridcontainer);
 
     const menuitem1 = document.createElement('div');

@@ -2,7 +2,7 @@ const createHome = (() => {
     const content = document.querySelector('#content');
 
     const home = document.createElement('div');
-    home.classList.add('home-content');
+    home.classList.add('home-content', 'animated');
     content.appendChild(home);
 
     const homep = document.createElement('p');
